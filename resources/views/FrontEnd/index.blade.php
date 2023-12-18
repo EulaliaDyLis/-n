@@ -702,16 +702,14 @@
                                 src="{{ asset('frontend/images/blog-img3.jpg') }}" width="550px" height="255.46px"> </a>
                     </div>
                     <div class="blog-preview_info">
-                    <h4 class="blog-preview_title"><a href="blog_single_post.html">Hướng dẫn chọn mua giày sneaker</a></h4>
+                    <h4 class="blog-preview_title"><a href="blog_single_post.html">MUA GIÀY SNEAKER CHÍNH HÃNG GẦN ĐÂY ĐẾN T.A SNEAKER</a></h4>
                          <ul class="post-meta">
                              <li><i class="fa fa-user"></i>được đăng bởi <a href="#">admin</a></li>
                              <li><i class="fa fa-comments"></i><a href="#">8 nhận xét</a></li>
                              <li><i class="fa fa-clock-o"></i><span class="day">12</span> <span
                                      class="tháng">Tháng hai</span></li>
                          </ul>
-                         <div class="blog-preview_desc">Lid est workingum dolo rumes fugats untras. Etharums ser
-                             quidem rerum facilis dolores nemis omnis fugats vitaes nemo minima rerums unsers
-                             nụ cười.</div>
+                         <div class="blog-preview_desc">Địa chỉ mua giày sneaker chính hãng gần đây đến KING SHOES SNEAKER AUTHENTIC STORE - 192/2 Nguyễn Thái Bình, phường 12, quận Tân Bình. KING SHOES chuyên sneaker bán giày Nike/ adidas chính hãng tại quận Tân Bình... </div>
                          <a class="blog-preview_btn" href="blog_single_post.html">ĐỌC THÊM</a>
                      </div>
                  </div>
@@ -721,16 +719,14 @@
                          src="{{ asset('frontend/images/blog-img2.jpg') }}" width="550px" height="255.46px"> </a>
                      </div>
                      <div class="blog-preview_info">
-                         <h4 class="blog-preview_title"><a href="#">Top 5 giày sneaker chuộng nhất</a></h4>
+                         <h4 class="blog-preview_title"><a href="#">SHOP GIÀY SNEAKER TPHCM | HÀNG HIỆU - CHÍNH HÃNG 2024</a></h4>
                          <ul class="post-meta">
                              <li><i class="fa fa-user"></i>được đăng bởi <a href="#">admin</a></li>
                              <li><i class="fa fa-comments"></i><a href="#">4 nhận xét</a></li>
                              <li><i class="fa fa-clock-o"></i><span class="day">25</span> <span
                                      class="tháng">Tháng 1</span></li>
                          </ul>
-                         <div class="blog-preview_desc">Ut tellus dolor, dapibus eget, elementum vel, cursus
-                             tinh hoa, ưu tú. Aenean auctor wisi et urna. Aliquam erat volutpat. Duis ac turpis.
-                             Donec sit amet eros.</div>
+                         <div class="blog-preview_desc">Địa chỉ mua giày sneaker chính hãng gần đây đến KING SHOES SNEAKER AUTHENTIC STORE - 192/2 Nguyễn Thái Bình, phường 12, quận Tân Bình. KING SHOES chuyên sneaker bán giày Nike</div>
                          <a class="blog-preview_btn" href="blog_single_post.html">ĐỌC THÊM</a>
                      </div>
                 </div>

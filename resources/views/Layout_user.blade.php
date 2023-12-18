@@ -203,32 +203,30 @@
                                                      <div class="row">
                                                          <div class="col-sm-6">
                                                              <ul class="nav">
-                                                                 <li><a href="#"><span>Lưới</span></a></li>
+                                                                 <li><a href="{{route('gioithieu')}}"><span>Giới thiệu</span></a></li>
                                                                  <li>
-                                                                     <a href="#"> <span>Danh sách</span></a>
+                                                                     <a href="{{route('lienhe')}}"> <span>Liên hệ</span></a>
                                                                  </li>
                                                                  <li>
-                                                                     <a href="#"> <span>Sản phẩm
-                                                                             Chi tiết</span></a>
+                                                                     <a href="{{route('chinhsach1')}}"> <span>Chế độ bảo hành</span></a>
                                                                  </li>
                                                                  <li>
-                                                                     <a href="#"> <span>Mua sắm
-                                                                             Giỏ hàng</span></a>
+                                                                     <a href="{{route('chinhsach2')}}"> <span>Chính sách đổi trả</span></a>
                                                                  </li>
-                                                                 <li><a href="#"><span>Thanh toán</span></a>
+                                                                 <li><a href="{{route('hotro3')}}"><span>Hướng dẫn mua hàng</span></a>
                                                                  </li>
-                                                                 <li>
+                                                                 <!-- <li>
                                                                      <a href="wishlist.html"> <span>Danh sách yêu thích</span></a>
-                                                                 </li>
+                                                                 </li> -->
                                                              </ul>
                                                          </div>
                                                          <div class="col-sm-6 has-sep">
                                                              <ul class="nav">
                                                                  <li>
-                                                                     <a href="dashboard.html"> <span>Trang tổng quan</span>
+                                                                     <a href="dashboard"> <span>Trang tổng quan</span>
                                                                      </a>
                                                                  </li>
-                                                                 <li>
+                                                                 <!-- <li>
                                                                      <a href="multiple_addresses.html"> <span>Nhiều
                                                                              Địa chỉ</span></a>
                                                                  </li>
@@ -239,7 +237,7 @@
                                                                          href="#"><span>Bản tin</span></a>
                                                                  </li>
                                                                  <li><a href="404error.html"><span>Lỗi 404
-                                                                             Trang</span></a></li>
+                                                                             Trang</span></a></li> -->
                                                             </ul>
                                                         </div>
                                                     </div>
@@ -416,25 +414,20 @@
                             <div class="footer-column pull-left">
                             <h4>Hướng dẫn mua sắm</h4>
                                  <ul class="links">
-                                     <li><a href="blog.html" title="Cách mua">Blog</a></li>
-                                     <li><a href="faq.html" title="FAQs">Câu hỏi thường gặp</a></li>
-                                     <li><a href="#" title="Thanh toán">Thanh toán</a></li>
-                                     <li><a href="#" title="Shipment">Chuyến hàng</a></li>
-                                     <li><a href="#" title="Đơn hàng của tôi ở đâu?">Đơn hàng của tôi ở đâu?</a></li>
-                                     <li><a href="#" title="Chính sách hoàn trả">Chính sách hoàn trả</a></li>
+                                     <li><a href="{{route('hotro1')}}" title="Cách mua">Chăm sóc khách hàng</a></li>
+                                     <li><a href="#" title="{{route('hotro2')}}">Thanh toán</a></li>
+                                     <li><a href="#" title="{{route('hotro3')}}">Hướng dẫn mua hàng</a></li>
                                 </ul>
                             </div>
                         </div>
                         <div class="col-md-3 col-sm-6">
                             <div class="footer-column pull-left">
-                            <h4>Cố vấn phong cách</h4>
+                            <h4>CHÍNH SÁCH CỬA HÀNG</h4>
                                  <ul class="links">
-                                     <li><a href="login.html" title="Tài khoản của bạn">Tài khoản của bạn</a></li>
-                                     <li><a href="#" title="Information">Thông tin</a></li>
-                                     <li><a href="#" title="Addresses">Địa chỉ</a></li>
-                                     <li><a href="#" title="Addresses">Giảm giá</a></li>
-                                     <li><a href="#" title="Lịch sử đơn hàng">Lịch sử đơn hàng</a></li>
-                                     <li><a href="#" title="Theo dõi đơn hàng">Theo dõi đơn hàng</a></li>
+                                     <li><a href="{{route('chinhsach1')}}" title="Tài khoản của bạn">Chế độ bảo hành</a></li>
+                                     <li><a href="{{route('chinhsach2')}}" title="Information">Chính sách đổi trả</a></li>
+                                     <li><a href="{{route('chinhsach3')}}" title="Lịch sử đơn hàng">Bảo mật thông tin</a></li>
+                                     <li><a href="{{route('chinhsach4')}}" title="Theo dõi đơn hàng">Chính sách giao nhận</a></li>
                                  </ul>
                              </div>
                          </div>
@@ -442,12 +435,9 @@
                              <div class="footer-column pull-left">
                                  <h4>Thông tin</h4>
                                  <ul class="links">
-                                     <li><a href="sitemap.html" title="Sơ đồ trang web">Sơ đồ trang web</a></li>
-                                     <li><a href="#" title="Cụm từ tìm kiếm">Cụm từ tìm kiếm</a></li>
-                                     <li><a href="#" title="Tìm kiếm nâng cao">Tìm kiếm nâng cao</a></li>
-                                     <li><a href="about_us.html" title="Giới thiệu">Giới thiệu</a></li>
-                                     <li><a href="contact_us.html" title="Liên hệ với chúng tôi">Liên hệ với chúng tôi</a></li>
-                                     <li><a href="#" title="Suppliers">Nhà cung cấp</a></li>
+                                     <li><a href="#" title="Tìm kiếm nâng cao">Tìm kiếm</a></li>
+                                     <li><a href="{{route('gioithieu')}}" title="Giới thiệu">Giới thiệu</a></li>
+                                     <li><a href="{{route('lienhe')}}" title="Liên hệ với chúng tôi">Liên hệ với chúng tôi</a></li>
                                  </ul>
                              </div>
                          </div>

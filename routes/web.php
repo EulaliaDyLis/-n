@@ -62,9 +62,36 @@ Route::group(['namespace'=>'BackEnd'],function(){
 
 
 
-Route::get('/123123', function () {
-    return view('abc');
-});
-Route::get('/321321', function () {
-    return view('bcd');
-});
+Route::get('/details-news', function () {
+    return view('news');
+})->name('details-news');
+Route::get('/details-news2', function () {
+    return view('news2');
+})->name('details-news2');
+Route::get('/chinhsach1', function () {
+    return view('baohanh');
+})->name('chinhsach1');
+Route::get('/chinhsach2', function () {
+    return view('doitra');
+})->name('chinhsach2');
+Route::get('/chinhsach3', function () {
+    return view('baomat');
+})->name('chinhsach3');
+Route::get('/chinhsach4', function () {
+    return view('giaonhan');
+})->name('chinhsach4');
+Route::get('/hotro1', function () {
+    return view('chamsoc');
+})->name('hotro1');
+Route::get('/hotro2', function () {
+    return view('thanhtoan');
+})->name('hotro2');
+Route::get('/hotro3', function () {
+    return view('muahang');
+})->name('hotro3');
+Route::get('/gioithieu', function () {
+    return view('gioithieu');
+})->name('gioithieu');
+Route::get('/lienhe', function () {
+    return view('lienhe');
+})->name('lienhe');
